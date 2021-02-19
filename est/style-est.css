@@ -1,0 +1,25 @@
+/*Código Universal*/ * {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 100%;
+    font: inherit;
+    overflow: hidden;
+    transition: 0.3s;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Corpo do site*/ body {
+    background: rgb(243, 243, 243);
+}
+
+/*Tamanho total dos itens distribuidos pelog formulário, com um tamanhog de 100%*/ #box-width {
+    position: absolute;
+    left: 2.5rem;
+    top: 6rem;
+
+    width: 80%;
+    height: 10rem;
+}
